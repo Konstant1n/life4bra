@@ -1,0 +1,12 @@
+2022-08-12T12:32:30+00:00 CRITICAL syntax error, unexpected '{' у C:\OpenServer\domains\life4bra\wp-content\themes\storefront\home-lending.php доступно 14
+
+2022-08-12T12:32:32+00:00 CRITICAL syntax error, unexpected '{' у C:\OpenServer\domains\life4bra\wp-content\themes\storefront\home-lending.php доступно 14
+
+2022-08-12T12:41:11+00:00 CRITICAL Uncaught Error: Call to a member function get_gallery_image_ids() on null in C:\OpenServer\domains\life4bra\wp-content\themes\storefront\home-lending.php:15
+Stack trace:
+#0 C:\OpenServer\domains\life4bra\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\life4bra\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\life4bra\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown у C:\OpenServer\domains\life4bra\wp-content\themes\storefront\home-lending.php доступно 15
+

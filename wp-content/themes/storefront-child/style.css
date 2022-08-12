@@ -1,0 +1,36 @@
+/*
+Theme Name: storefront-child
+Template: storefront
+*/
+@import url("main.css");
+/* @import url("../storefront/style.css");
+@import url("../storefront/style-rtl.css"); */
+
+.col-full {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.week_prods {
+    height: 100%;
+}
+
+
+.lb_popular_prod {
+    padding-top: 50px;
+    background: white;
+}
+
+
+
+/* li {
+
+    width: 410px;
+    height: 830px;
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+} */
