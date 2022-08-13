@@ -3,13 +3,13 @@
 Template Name: Home Lending
 */ 
 
- get_header(); 
+ get_header('landing');
 ?>
+
 
 <div class="container">
     <H1>Деякий текст тест</H1>
 </div>
-
 
 
 
@@ -115,7 +115,7 @@ Template Name: Home Lending
     <section class="feedback">
         <div class="feed_cont">
             <div class="feed_title">
-                <h2>Відгуки клієнтів</h2>
+                <h2>Відгуки клієнтів Тест</h2>
                 <div class="feed_left"><img src="./images/arrow_left.svg" alt="left"></div>
                 <div class="feed_right"><img src="./images/arrow_right.svg" alt="right"></div>
             </div>
@@ -179,11 +179,18 @@ Template Name: Home Lending
 </main>
 
 
+<footer>
+        <div class="foot_cont">
+            <h2>КОНТАКТИ</h2>
+            <ul>
+                <li class="foot_phone"><a href="tel:+380501234567">+38 (050) 1234567</a></li>
+                <li class="foot_email"><a href="email:hello@travel.com">hello@travel.com</a></li>
+                <li class="foot_adress">м.Київ, вул.Хрещатик 1</li>
+                <li class="foot_icons"></li>
+            </ul>
+        </div>
+    </footer>
+
 
 <?php
-/*
-Template Name: Home Lending
-*/ 
-
- get_footer(); 
-?>
+    // get_footer('landing'); 

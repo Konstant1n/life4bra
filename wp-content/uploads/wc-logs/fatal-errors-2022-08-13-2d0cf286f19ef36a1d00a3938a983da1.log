@@ -1,0 +1,2 @@
+2022-08-13T08:24:14+00:00 CRITICAL Out of memory (allocated 39845888) (tried to allocate 90112 bytes) у C:\OpenServer\domains\life4bra\wp-content\plugins\woocommerce\src\Admin\PluginsHelper.php доступно 13
+

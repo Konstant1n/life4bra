@@ -60,13 +60,13 @@ ul {
     padding-bottom: 130px;
 }
 
-.product {
+/* .product {
     width: 410px;
     height: 830px;
     position: relative;
     background-color: white;
     border-radius: 10px;
-}
+} */
 
 .prod_tag {
     position: absolute;
@@ -187,7 +187,7 @@ ul {
     margin-bottom: 35px;
 }
 
-.product a {
+/* .product a {
     background-attachment: scroll;
     background-position: 0% 0%;
     background-repeat: no-repeat;
@@ -221,7 +221,7 @@ ul {
     flex: 1 1 calc(50% - 16px);
     box-sizing: border-box;
     max-width: 100%;
-}
+} */
 
 
 .feedback {

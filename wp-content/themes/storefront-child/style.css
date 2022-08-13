@@ -6,31 +6,38 @@ Template: storefront
 /* @import url("../storefront/style.css");
 @import url("../storefront/style-rtl.css"); */
 
-.col-full {
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
-    box-sizing: content-box;
-}
-
+/* Products cover */
 .week_prods {
     height: 100%;
 }
 
-
+/* Block under product */
 .lb_popular_prod {
     padding-top: 50px;
-    background: white;
+    /* background: white; */
+    
 }
 
 
 
-/* li {
+/* Woocomerce product card*/
 
+.wc-block-grid__products {
+    justify-content: space-between;
+}
+
+.theme-twentytwenty .wc-block-grid.has-3-columns .wc-block-grid__product, .wc-block-grid.has-3-columns .wc-block-grid__product {
     width: 410px;
-    height: 830px;
+    height: 550px;
     position: relative;
     background-color: white;
     border-radius: 10px;
-} */
+    flex-basis: auto;
+    flex-grow: 0;
+}
+
+ul.products li.product img, ul.products .wc-block-grid__product img, .wc-block-grid__products li.product img, .wc-block-grid__products .wc-block-grid__product img {
+    margin-top: 50px;
+    border-radius: 15px;
+    
+}

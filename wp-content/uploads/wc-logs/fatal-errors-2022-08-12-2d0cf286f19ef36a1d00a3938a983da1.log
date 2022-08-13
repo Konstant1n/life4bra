@@ -10,3 +10,5 @@ Stack trace:
 #3 {main}
   thrown у C:\OpenServer\domains\life4bra\wp-content\themes\storefront\home-lending.php доступно 15
 
+2022-08-12T20:19:57+00:00 CRITICAL syntax error, unexpected end of file у C:\OpenServer\domains\life4bra\wp-content\themes\storefront-child\header-landing.php доступно 68
+
