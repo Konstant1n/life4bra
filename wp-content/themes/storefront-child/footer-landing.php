@@ -37,6 +37,6 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<script src="<?php echo get_stylesheet_directory_uri() ?>/app.js"></script>
 </body>
 </html>
