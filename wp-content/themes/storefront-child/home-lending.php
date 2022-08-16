@@ -96,7 +96,7 @@ Template Name: Home Lending
 
     <section class="week_prods">
         <div class="prod_cont">
-            <h2>Товари тижня</h2>
+            <h2>Нова колекція</h2>
             <h3>Популярні товари</h3>
             <div class="lb_popular_prod">
                 <div class="top_phone">
