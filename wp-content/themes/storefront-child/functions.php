@@ -33,6 +33,13 @@ add_action( 'storefront_header', 'lb_move_to_top_header_menu', 0 );
 function lb_move_to_top_header_menu() {
 	echo '<div class="lb_top_menu"> <div class="col-full">';
 	storefront_site_branding();
-	echo '</div></div>';
+	echo '<div class="lb_phone"><i class="fa-solid fa-square-phone"></i>&nbsp066 999 99 99</div></div></div>';
+
+}
+
+add_action( 'storefront_header', 'lb_add_phone', 0 );
+function lb_add_phone() {
+	echo '';
+	echo '';
 
 }

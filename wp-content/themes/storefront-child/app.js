@@ -35,3 +35,37 @@ prev.onclick = function () {
         prevSlide.classList.add("feed_active")
     }
 }
+
+
+
+/* Promo slider */
+
+jQuery(document).ready(function($) {
+    var imgHead = [
+        '/wp-content/themes/storefront-child/images/imgCsaHead/img1.webp',
+        '/wp-content/themes/storefront-child/images/imgCsaHead/img2.webp',
+        '/wp-content/themes/storefront-child/images/imgCsaHead/img.png',
+    ], i=1;
+    function csaHead(){
+    
+    if(i > (imgHead.length-1)){
+        $('.csa-head').animate({'opacity':'0'},1500,function(){
+            i=1;
+            $('.csa-head').css({'background-image':'url('+imgHead[0]+')'});
+        });
+        $('.csa-head').animate({'opacity':'1'},1500);
+    }else{
+        var ss123 = $('.csa-head');
+        $('.csa-head').animate({'opacity':'0'},1500,function(){
+            $('.csa-head').css({'background-image':'url('+imgHead[i]+')'});
+            i++;
+        });
+        $('.csa-head').animate({'opacity':'1'},1500);
+    }
+    
+    }
+    var intervalCsaHead = setInterval(csaHead,5000);
+
+});
+    
+   

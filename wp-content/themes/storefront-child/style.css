@@ -6,6 +6,12 @@ Template: storefront
 /* @import url("../storefront/style.css");
 @import url("../storefront/style-rtl.css"); */
 
+.site-title a {
+    color: rgba(250, 57, 67, 1);
+}
+
+
+
 /* Products cover */
 .week_prods {
     height: 100%;
@@ -63,6 +69,19 @@ p.site-description {
     margin-top: -42px;
 }
 
+.lb_top_menu .site-branding {
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+}
+
+@media screen and (max-width: 767px) {
+    .lb_top_menu .site-branding {
+        margin-bottom: 1.41575em;
+
+    }
+}
+
+
 .main-navigation ul.menu>li>a,
 .main-navigation ul.nav-menu>li>a {
     display: inline-block;
@@ -102,34 +121,78 @@ p.site-description {
     }
 }
 
+.lb_phone {
+    margin-top: 23px;
+    color: white;
+    height: 30px;
+    float: right;
+    font-size: 1.5em;
+    font-family: "Source Sans Pro", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.fa-square-phone:before {
+    font-size: 0.9em;
+}
+
+@media screen and (max-width: 768px) {
+    .lb_phone {
+        display: none;
+    }
+}
+
+
 /* Promo block */
 .col-md-6.promo-left-img {
-    background-image: url(./images/mainpromo.png;);
+    background-image: url(./images/mainpromo.png);
     background-size: cover;
-    height: 70vh;
+    background-position: center;
+    height: 500px;
 }
 
 .col-md-6.promo-right-img {
-    background-image: url(./images/promobck.png;);
-    background-size: cover;  
-    height: 70vh;
+    background-image: url(./images/promobck.png);
+    background-size: cover;
+    height: 500px;
     padding: 0;
     position: relative;
 }
 
-.promo-text h2, .promo-text h5 {
+@media screen and (max-width: 768px) {
+
+    .col-md-6.promo-left-img,
+    .col-md-6.promo-right-img {
+        height: 250px;
+    }
+
+    .col-md-6.promo-right-img {
+        height: 350px;
+    }
+}
+
+.promo-text h2,
+.promo-text h5 {
     color: white;
 }
 
 @media screen and (max-width: 520px) {
-    .col-md-6.promo-left-img {
-        display: none;
-    }
-    .promo-text h2{
+
+    .promo-text h2 {
         font-size: 1.3em;
     }
 }
 
+/*Icons*/
+.fa-gift,
+.fa-truck,
+.fa-user-shield {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: rgba(250, 57, 67, 1);
+}
+
+.promo h3 {
+    margin-bottom: 0;
+}
 
 /* Products view*/
 
@@ -162,7 +225,7 @@ p.site-description {
     .lb_popular_prod .wc-block-grid.has-3-columns .wc-block-grid__product:last-child {
         margin-bottom: 0px;
     }
-    
+
     .week_prods {
         padding-bottom: 50px;
     }
@@ -182,17 +245,64 @@ p.site-description {
 /*Hide woocomerce footer*/
 
 #colophon {
-    display: none;
+    /* display: none; */
 }
 
-@media screen {
+.footer-widgets.row-1.col-2.fix {
+    flex: none;
+    width: 60%;
+}
+
+
+.footer-widgets.row-1.col-2.fix a {
+    color: white;
+    cursor: pointer;
+    font-size: 1.3em;
+    text-decoration: none;
+    text-align-last: center;
+    line-height: 0%;
+    font-family: Fira Sans, sans-serif;
+    font-style: normal;
+    text-align: left;
+}
+
+.footer-widgets.row-1.col-2.fix a:hover {
     
+    text-decoration: underline;
+  
 }
 
-.site-title a {
-    color: rgba(250,57,67,1);
+.footer-widget-1 .foot_cont h2 {
+    text-align-last: left ;
+    font-size: 2em;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 0;
+    font-family: Fira Sans, sans-serif;
+    font-style: normal;
+    padding-top: 15px;
+    margin-bottom: 40px;
 }
 
-.site-title a {
-    color: rgba(250,57,67,1);
+.foot_phone {
+    
+    text-align: left;
+}
+
+.foot_email {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.foot_cont {
+    padding-bottom: 0px;
+}
+
+.foot_adress {
+    text-align: left;
+    text-align-last: left ;
+}
+
+.widget_nav_menu ul li::before {
+    color: white;
 }

@@ -35,12 +35,10 @@ Template Name: Home Lending
 
         <section class="container-fluid promo">
             <div class="row">
-                <div class="col-md-6 promo-left-img">
-                    <!-- <img src="<?php echo get_stylesheet_directory_uri() ?>/images/mainpromo.png"> -->
+                <div class="col-md-6 promo-left-img csa-head">
                 </div>
 
                 <div class="col-md-6 promo-right-img">
-                    <!-- <img src="<?php echo get_stylesheet_directory_uri() ?>/images/promobck.png"> -->
                     <div class="header-gradient">
                     </div>
                     <div class="promo-text">
@@ -64,7 +62,7 @@ Template Name: Home Lending
 
                 <div class="col-md-4">
                     <div class="sale">
-                        <img src="<?php echo get_stylesheet_directory_uri() ?>/images/gift.svg">
+                        <i class="fa-solid fa-gift"></i>
                         <h3>Подарунки та знижки</h3>
                         <p>Бонусна система знижок та подрунків</p>
 
@@ -73,7 +71,7 @@ Template Name: Home Lending
 
                 <div class="col-md-4">
                     <div class="delivery">
-                        <img src="<?php echo get_stylesheet_directory_uri() ?>/images/truck.svg">
+                        <i class="fa-solid fa-truck"></i>
                         <h3>Безкоштовна доставка</h3>
                         <p>Бескоштовна доставка по місту</p>
                     </div>
@@ -81,7 +79,7 @@ Template Name: Home Lending
 
                 <div class="col-md-4">
                     <div class="quality">
-                        <img src="<?php echo get_stylesheet_directory_uri() ?>/images/user-shield.svg">
+                        <i class="fa-solid fa-user-shield"></i>
                         <h3>Гарантія якості</h3>
                         <p>Ми гарантуємо високу якість всього нашого твару</p>
 
@@ -185,18 +183,28 @@ Template Name: Home Lending
 </main>
 
 
-<footer>
+<!-- <footer>
     <div class="foot_cont">
         <h2>КОНТАКТИ</h2>
         <ul>
             <li class="foot_phone"><a href="tel:+380501234567">+38 (050) 1234567</a></li>
             <li class="foot_email"><a href="email:hello@travel.com">hello@travel.com</a></li>
             <li class="foot_adress">м.Київ, вул.Хрещатик 1</li>
-            <!-- <li class="foot_icons"></li> -->
+           
         </ul>
     </div>
-</footer>
+</footer> -->
 
+
+<!-- /* TEST shortcode */ -->
+
+<!-- <?php
+    echo do_shortcode( '[su_custom_gallery source="media: 65,66"]' );
+    echo do_shortcode( '[su_animate type="lightSpeedIn" duration="3" delay="2"]Animated content[/su_animate]' );
+    echo do_shortcode( '[su_gmap responsive="no" address="Полтава жовтнева 5" zmax_width="50%"]' );
+    echo do_shortcode( '[su_image_carousel source="media: 65,66" limit="2" max_width="50%"' );
+    
+?> -->
 
 
 <?php
